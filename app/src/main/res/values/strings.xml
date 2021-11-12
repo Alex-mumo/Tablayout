@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="dont_have_an_account_register">Dont have an account?  Register</string>
+    <string name="todo">Todo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="checkout">CHECKOUT</string>
+    <string name="purchase">PURCHASE</string>
+    <string name="register">REGISTER</string>
+    <string name="email">Email</string>
+</resources>
