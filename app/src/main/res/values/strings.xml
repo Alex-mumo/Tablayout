@@ -10,4 +10,12 @@
     <string name="purchase">PURCHASE</string>
     <string name="register">REGISTER</string>
     <string name="email">Email</string>
+    <string name="id_number">Id Number</string>
+    <string name="email">Email</string>
+    <string name="second_name">Second name</string>
+    <string name="first_name">First name</string>
+    <string name="address">Address</string>
+    <string name="signin">SignIn</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
 </resources>

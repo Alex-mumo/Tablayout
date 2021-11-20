@@ -4,10 +4,74 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#ff2312"
     tools:context=".Register">
 
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_margin="10dp"
+        android:text="@string/first_name"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 
+    <EditText
+        android:id="@+id/secondname"
+        android:layout_margin="10dp"
+        android:text="@string/second_name"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_margin="10dp"
+        android:text="@string/email"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_margin="10dp"
+        android:text="@string/id_number"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RadioButton
+        android:id="@+id/male"
+        android:text="@string/male"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RadioButton
+        android:id="@+id/female"
+        android:text="@string/female"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_margin="10dp"
+        android:text="@string/address"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_margin="10dp"
+        android:text="@string/address"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_margin="10dp"
+        android:text="@string/signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 </LinearLayout>
