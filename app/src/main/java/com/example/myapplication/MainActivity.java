@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.app.ProgressDialog;
@@ -80,8 +81,8 @@ public class MainActivity extends AppCompatActivity {
         register_textview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               Intent intent = new Intent(this, Register.class);
-               startActivity(intent);
+               //Intent intent = new Intent(this, Register.class);
+               //startActivity(intent);
             }
         });
     }
